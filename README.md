@@ -1,16 +1,21 @@
-# exersise1
+# Basic Stack Navigation Exercise
 
-A new Flutter project.
+هذا المشروع هو تطبيق عملي لمفهوم "المكدس" (Stack) في التنقل بين شاشات تطبيقات الموبايل باستخدام إطار عمل Flutter. تم تطويره كجزء من المتطلبات الأكاديمية لمادة تطبيقات الموبايل.
 
-## Getting Started
+## بيانات الطالب
+**الاسم:** أسامة عبدالجليل حمود أحمد  
+**القسم:** تقنية المعلومات (IT)  
+**الكلية:** كلية الهندسة وتكنولوجيا المعلومات - جامعة تعز
 
-This project is a starting point for a Flutter application.
+## وصف المشروع
+يوضح التطبيق آلية عمل الـ Navigator في Flutter من خلال:
+1. **HomeScreen:** تمثل قاعدة المكدس (Bottom of Stack)، وتحتوي على زر للانتقال.
+2. **DetailScreen:** يتم دفعها (Push) إلى أعلى المكدس عند الانتقال.
 
-A few resources to get you started if this is your first Flutter project:
+## مخرجات التنفيذ (Screenshots)
+توضح الصور التالية واجهة التطبيق وحالة التنقل بين الشاشات:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="screenshots/home_screen.png" width="300" title="الشاشة الرئيسية">
+  <img src="screenshots/detail_screen.png" width="300" title="شاشة التفاصيل">
+</p>
